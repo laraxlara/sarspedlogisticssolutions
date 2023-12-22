@@ -14,7 +14,7 @@ function Contact({}: Props) {
       className="text-gray-600 body-font relative sm:h-screen"
     >
       <div className="container px-5 p-0 sm:py-24 mx-auto flex sm:flex-nowrap flex-wrap sm:h-screen">
-        <div className="lg:w-3/4 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        <div className="lg:w-3/4 md:w-1/2 h-[650px] bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           {/* <iframe
             width="100%"
             height="100%"
