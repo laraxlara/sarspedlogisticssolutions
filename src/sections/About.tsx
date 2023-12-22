@@ -53,10 +53,7 @@ const About = (props: Props) => {
                 izvršenja međunarodnog robnog transporta u Evropi. Naš glavni
                 cilj je da omogućimo klijentima da se fokusiraju na njihovo
                 osnovno poslovanje, dok im mi pružamo pouzdanu uslugu
-                primjenjujući osnovne logističke principe. Iskreno ja sam jako
-                loša u ovim stvarima, ima ponešto u prezentaciji koja je u
-                prilogu, možda ti bude korisno, tu prezentaciju šaljemo
-                klijentima.
+                primjenjujući osnovne logističke principe.
               </p>
               <p className="mb-8 text-base text-body-color dark:text-dark-6">
                 Naše poslovanje je izgrađeno na temeljima naših osnovnih
