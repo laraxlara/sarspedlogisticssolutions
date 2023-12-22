@@ -74,7 +74,7 @@ function Navbar({}: Props) {
         >
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg bg-white md:flex-row md:space-x-4 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white justify-center sm:justify-start items-start sm:items-center">
             {links.map((link) => (
-              <li key={link.id}>
+              <li key={link.id} onClick={toggleNavbar}>
                 <Link
                   href={link.url}
                   key={link.id}

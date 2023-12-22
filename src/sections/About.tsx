@@ -38,11 +38,11 @@ const About = (props: Props) => {
           </div>
           <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div className="mt-10 lg:mt-0">
-              <span className="block text-lg font-semibold text-primary">
+              <span className="block text-lg text-[#ED224F] font-semibold">
                 O nama
               </span>
-              <h2 className="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
-                Make your customers happy by giving services.
+              <h2 className="mb-5 text-3xl font-bold text-[#454444] sm:text-[40px]/[48px]">
+                Učinite svoje klijente srećnim pružanjem usluga.
               </h2>
               <p className="mb-5 text-base text-body-color dark:text-dark-6">
                 <span className="text-[#ED224F] font-bold">
