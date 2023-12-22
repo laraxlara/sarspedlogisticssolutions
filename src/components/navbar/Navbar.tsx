@@ -17,9 +17,12 @@ function Navbar({}: Props) {
   return (
     <nav className="bg-white border-gray-200">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <Link
+          href="/"
+          className="flex items-center space-x-3 rtl:space-x-reverse"
+        >
           <Image src={logo} alt="Logo" width={120} />
-        </a>
+        </Link>
         <button
           onClick={toggleNavbar}
           data-collapse-toggle="navbar-default"

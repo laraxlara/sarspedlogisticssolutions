@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import ContactForm from "@/components/contact/ContactForm";
 
 type Props = {};
@@ -48,9 +49,9 @@ function Contact({}: Props) {
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-[#ED224F] leading-relaxed">
+              <Link href="" className="text-[#ED224F] leading-relaxed">
                 example@email.com
-              </a>
+              </Link>
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                 VAT no:
               </h2>
