@@ -5,6 +5,8 @@ import * as yup from "yup";
 
 import FormLoader from "../loader/FormLoader";
 import Success from "./Success";
+import Error from "./Error";
+import axios from "axios";
 
 const schema = yup
   .object({
@@ -45,11 +47,13 @@ const ContactForm = (props: Props) => {
   const onSubmit = handleSubmit(async (data) => {
     setLoading(true);
     try {
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      console.log(data);
-      setTimeout(() => {
+      const response = await axios.post("api/contact/", data);
+
+      console.log(response.config.data);
+      if (response) {
+        setSent(true);
         setLoading(false);
-      }, 5000);
+      }
     } catch (error) {
       setError(true);
       console.log(error);
@@ -58,6 +62,7 @@ const ContactForm = (props: Props) => {
   });
   return (
     <>
+      {error ? <Error /> : null}
       {loading ? (
         <>
           <FormLoader />
@@ -115,7 +120,7 @@ const ContactForm = (props: Props) => {
             </div>
             <button
               type="submit"
-              className="w-full text-white bg-[#ED224F] border-0 py-2 px-6 focus:outline-none hover:bg-[#ED224F] rounded text-md"
+              className="w-full text-white bg-[#ED224F] border-0 py-2 px-6 focus:outline-none hover:bg-[#D71D46] rounded text-md"
             >
               Pošaljite poruku
             </button>

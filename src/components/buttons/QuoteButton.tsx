@@ -7,6 +7,9 @@ function QuoteButton({}: Props) {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
+    setIsVisible(true);
+    setTimeout(() => setIsVisible(false), 3000);
+
     let lastScrollTop = 0;
 
     const handleScroll = () => {
@@ -14,19 +17,18 @@ function QuoteButton({}: Props) {
         window.scrollY || document.documentElement.scrollTop;
 
       if (currentScroll > lastScrollTop) {
-        setIsVisible(false); // Scrolling down, hide the component
+        setIsVisible(false);
       } else {
-        setIsVisible(true); // Scrolling up, show the component
+        setIsVisible(true);
       }
-
-      lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
+      lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   return (
     <div
       style={{

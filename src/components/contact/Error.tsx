@@ -1,11 +1,13 @@
 import React from "react";
 
-const Success = () => {
+type Props = {};
+
+const Error = (props: Props) => {
   return (
     <div className="h-[350px]">
-      <div className="bg-green-100 rounded-md p-3 flex">
+      <div className="bg-red-100 rounded-md p-3 flex">
         <svg
-          className="stroke-2 stroke-current text-green-600 h-8 w-8 mr-2 flex-shrink-0"
+          className="stroke-2 stroke-current text-red-600 h-8 w-8 mr-2 flex-shrink-0"
           viewBox="0 0 24 24"
           fill="none"
           strokeLinecap="round"
@@ -16,12 +18,12 @@ const Success = () => {
           <path d="M9 12l2 2 4-4" />
         </svg>
 
-        <div className="text-green-700">
-          <div className="font-bold text-xl">Vaša poruka je poslata!</div>
+        <div className="text-red-700">
+          <div className="font-bold text-xl">Greška! Nešto nije u redu!</div>
         </div>
       </div>
     </div>
   );
 };
 
-export default Success;
+export default Error;

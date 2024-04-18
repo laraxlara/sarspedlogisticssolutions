@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
 import ImageSvg from "@/components/svg/ImageSvg";
 
@@ -42,7 +43,7 @@ const About = (props: Props) => {
                 O nama
               </span>
               <h2 className="mb-5 text-3xl font-bold text-[#454444] sm:text-[40px]/[48px]">
-                Učinite svoje klijente srećnim pružanjem usluga.
+                Špedicija i transport robe.
               </h2>
               <p className="mb-5 text-base text-body-color dark:text-dark-6">
                 <span className="text-[#ED224F] font-bold">
@@ -62,12 +63,12 @@ const About = (props: Props) => {
                 pokazujući poštovanje, obezbeđujući pravovremena ažuriranja i
                 dostupni smo za pomoć 24/7.
               </p>
-              <a
+              <Link
                 href="javascript:void(0)"
                 className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
               >
                 Get Started
-              </a>
+              </Link>
             </div>
           </div>
         </div>

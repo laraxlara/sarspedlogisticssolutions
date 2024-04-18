@@ -17,21 +17,26 @@ export const links: NavLink[] = [
   },
   {
     id: 3,
+    title: "Karakteristike",
+    url: "/#features",
+  },
+  {
+    id: 4,
     title: "O nama",
     url: "/#about",
   },
   {
-    id: 4,
+    id: 5,
     title: "Kontakt",
     url: "/#contact",
   },
   {
-    id: 5,
+    id: 6,
     title: "Info",
     url: "/#contact",
   },
   {
-    id: 6,
+    id: 7,
     title: "Zahtev za upit",
     url: "/request",
   },
