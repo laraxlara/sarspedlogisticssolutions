@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { links } from "./NavbarLinks";
 
-import logo from "../../../public/images/logo.png";
+import logo from "../../../public/images/logo2.png";
 import uk from "../../../public/images/uk.svg";
 
 type Props = {};
@@ -21,7 +21,7 @@ function Navbar({}: Props) {
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <Image src={logo} alt="Logo" width={120} />
+          <Image src={logo} alt="Logo" width={300} />
         </Link>
         <button
           onClick={toggleNavbar}

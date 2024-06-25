@@ -17,8 +17,7 @@ function Hero({}: Props) {
       <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
         <div className="max-w-3xl text-start ltr:sm:text-left rtl:sm:text-right">
           <h1 className="text-3xl font-extrabold text-white sm:text-7xl/snug">
-            THE <span className="text-[#ED224F]">ONE</span> AND ONLY <br />
-            <span className="text-[#ED224F]">SPED</span>ITION <br /> FOR YOU
+            We deliver <br /> solutions.
           </h1>
 
           <div className="mt-8 flex flex-wrap gap-4 text-center">

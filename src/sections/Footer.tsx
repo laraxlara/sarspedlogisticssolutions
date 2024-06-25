@@ -4,7 +4,7 @@ import Link from "next/link";
 import QuoteButton from "@/components/buttons/QuoteButton";
 import { links } from "@/components/navbar/NavbarLinks";
 
-import logo from "../../public/images/logo.png";
+import logo from "../../public/images/logo2.png";
 
 type Props = {};
 
@@ -13,7 +13,7 @@ function Footer({}: Props) {
     <footer className="bg-white">
       <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="flex justify-center text-teal-600">
-          <Image src={logo} alt="Footer Logo" width={200} />
+          <Image src={logo} alt="Footer Logo" width={300} />
         </div>
 
         <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">

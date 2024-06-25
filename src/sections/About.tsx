@@ -3,9 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 import ImageSvg from "@/components/svg/ImageSvg";
 
-import a1 from "../../public/images/a1.jpg";
-import a2 from "../../public/images/a2.jpg";
-import a3 from "../../public/images/a3.jpg";
+import a1 from "../../public/images/a4.jpg";
+import a2 from "../../public/images/a5.jpg";
+import a3 from "../../public/images/sajt.jpg";
 
 type Props = {};
 
@@ -43,25 +43,26 @@ const About = (props: Props) => {
                 O nama
               </span>
               <h2 className="mb-5 text-3xl font-bold text-[#454444] sm:text-[40px]/[48px]">
-                Špedicija i transport robe.
+                Logistika i transport robe.
               </h2>
               <p className="mb-5 text-base text-body-color dark:text-dark-6">
                 <span className="text-[#ED224F] font-bold">
-                  Onesped logistics d.o.o.
+                  Sarsped logistics solutions d.o.o.
                 </span>{" "}
-                je osnovana 2022.godine od strane eksperata u polju transporta i
-                logistike s vizijom/ciljem pružanja usluge organizovanja i
-                izvršenja međunarodnog robnog transporta u Evropi. Naš glavni
-                cilj je da omogućimo klijentima da se fokusiraju na njihovo
-                osnovno poslovanje, dok im mi pružamo pouzdanu uslugu
-                primjenjujući osnovne logističke principe.
+                je pružalac logističkih usluga specijalizovan za organizaciju,
+                optimizaciju i izvršenje međunarodnog i domaćeg drumskog
+                transporta tereta u Evropi. Naša vizija je da postanemo sinonim
+                za odličnu i pouzdanu uslugu drumskog transporta širom Evrope.
               </p>
               <p className="mb-8 text-base text-body-color dark:text-dark-6">
-                Naše poslovanje je izgrađeno na temeljima naših osnovnih
-                vrednosti: lojalnosti, razumevanja i podrške i za naše klijente
-                i za podizvođače. Cilj nam je da stvorimo snažnu mrežu
-                pokazujući poštovanje, obezbeđujući pravovremena ažuriranja i
-                dostupni smo za pomoć 24/7.
+                Težimo da budemo prepoznati kao lideri u logistici, pružajući
+                vrhunsku uslugu 24/7, koja prevazilazi očekivanja naših
+                klijenata i omogućava im da se fokusiraju na njihovo osnovno
+                poslovanje. Takođe, posvećeni smo smanjenju našeg uticaja na
+                okolinu usvajanjem praksi zelene logistike. Težimo da
+                kontinuirano širimo i ojačavamo našu mrežu klijenata i
+                podizvođača, negujući dugotrajna partnerstva koja pokreću
+                zajednički rast i uspeh.
               </p>
               <Link
                 href="javascript:void(0)"

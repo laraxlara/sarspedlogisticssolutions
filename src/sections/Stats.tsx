@@ -27,39 +27,17 @@ function Stats({}: Props) {
         <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
           <div className="w-full sm:p-4 px-4 mb-6">
             <h4 className="title-font font-medium text-2xl mb-2 text-gray-900">
-              <span className="text-[#ED224F] font-bold">ONESPED</span>{" "}
+              <span className="text-[#ED224F] font-bold">
+                Sarsped logistics solutions d.o.o.
+              </span>{" "}
               prvenstveno uključuje puteve koji počinju ili završavaju na
               Balkanu.
             </h4>
             <div className="leading-relaxed">
-              Posvećenost ONESPED flote nudi pouzdane usluge drumskog teretnog
-              transporta klijentima na Balkanu, Skandinaviji, Centralnoj i
-              Zapadnoj Evropi.
+              Sarsped logistics solutions d.o.o. pruža pouzdanu i kvalitetnu
+              uslugu drumskog teretnog transporta na relacijama iz Skandinavije,
+              Zapadne i Centralne Evrope do Balkana i obrnuto.
             </div>
-          </div>
-          <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-            <h2 className="title-font font-medium text-2xl text-gray-900">
-              28 trucks
-            </h2>
-            <p className="leading-relaxed">Balkans and Turkey</p>
-          </div>
-          <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-            <h2 className="title-font font-medium text-2xl text-gray-900">
-              34 trucks
-            </h2>
-            <p className="leading-relaxed">Western Europe</p>
-          </div>
-          <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-            <h2 className="title-font font-medium text-2xl text-gray-900">
-              32 trucks
-            </h2>
-            <p className="leading-relaxed">Scandinavia</p>
-          </div>
-          <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-            <h2 className="title-font font-medium text-2xl text-gray-900">
-              19 trucks
-            </h2>
-            <p className="leading-relaxed">Central Europe</p>
           </div>
         </div>
         <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">

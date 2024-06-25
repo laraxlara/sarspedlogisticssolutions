@@ -14,8 +14,8 @@ function Features({}: Props) {
           <p className="mt-4 text-gray-800">
             Verujemo u negovanje ne samo poslovnih odnosa, već i istinskog
             partnerstva sa našim klijentima i podizvođačima. Trudimo se da
-            budemo više od samo dobavljača usluga – cilj nam je da budemo
-            pouzdan saveznik, nudeći stalnu podršku i smernice na svakom koraku.
+            budemo više od samo pružaoca usluga – cilj nam je da budemo pouzdan
+            saveznik, nudeći stalnu podršku i smernice na svakom koraku.
           </p>
         </div>
 
@@ -49,7 +49,9 @@ function Features({}: Props) {
               <p className="mt-1 text-sm text-gray-800">
                 Naš cilj je da premašimo standardni nivo usluge u logistici.
                 Promovišemo inovativna rešenja za rešavanje izazova logističke
-                industrije koji se stalno menjaju.
+                industrije koji se stalno menjaju. Posvećeni efikasnosti,
+                tačnosti, sigurnosti i kontinuiranom radu na poboljšanju naših
+                procesa težimo najvišem nivou zadovoljstva klijenata.
               </p>
             </div>
           </div>
@@ -80,7 +82,7 @@ function Features({}: Props) {
               <h2 className="text-lg font-bold text-black">Tim stručnjaka</h2>
 
               <p className="mt-1 text-sm text-gray-800">
-                Tim mladih i obrazovanih logističkih stručnjaka pruža najbolja
+                Tim iskusnih i obrazovanih logističkih stručnjaka pruža najbolja
                 logistička rešenja uz održavanje konkurentnih cena naših usluga.
               </p>
             </div>
@@ -113,7 +115,8 @@ function Features({}: Props) {
               <p className="mt-1 text-sm text-gray-800">
                 Imamo modernu flotu pouzdanih podizvođača koji su pažljivo
                 odabrani. Ovo nam omogućava da našim klijentima ponudimo
-                konzistentan i stabilan broj kamiona za FTL i LTL pošiljke.
+                konzistentan i stabilan broj kamiona za pune (FTL) i zbirne
+                (LTL) pošiljke.
               </p>
             </div>
           </div>

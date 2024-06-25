@@ -1,10 +1,5 @@
 import React, { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
 import Navbar from "@/components/navbar/Navbar";
-
-import logo from "../../public/images/logo.png";
-import uk from "../../public/images/uk.svg";
 
 type Props = {};
 
