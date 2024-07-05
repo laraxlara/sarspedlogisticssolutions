@@ -7,9 +7,9 @@ function Features({}: Props) {
     <section id="features" className="bg-gray-100 text-white lg:h-[500px]">
       <div className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 max-w-screen-xl mx-auto">
         <div className="max-w-xl">
-          <h2 className="text-3xl text-black font-bold sm:text-4xl">
+          <h5 className="text-3xl text-black font-bold sm:text-4xl">
             Ono što nas čini posebnim
-          </h2>
+          </h5>
 
           <p className="mt-4 text-gray-800">
             Verujemo u negovanje ne samo poslovnih odnosa, već i istinskog

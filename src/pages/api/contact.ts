@@ -42,18 +42,6 @@ const handler = async (req: NextApiRequest, res: NextApiResponse<Response>) => {
   }
 
   try {
-    // if (!subject || !subject.trim()) {
-    //   throw new Error("Please provide a valid name.");
-    // }
-
-    // if (!email || !email.trim()) {
-    //   throw new Error("Please provide a valid email address.");
-    // }
-
-    // if (!message || !message.trim()) {
-    //   throw new Error("Please provide a valid email message.");
-    // }
-
     await transporter.sendMail({
       to: "laraxlara97@gmail.com",
       from: `${email}`,
@@ -71,13 +59,11 @@ const handler = async (req: NextApiRequest, res: NextApiResponse<Response>) => {
 
                 <!-- pod1 -->
                 <table class="email-width" align="center" width="500" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:500px;">
-                  <tr>
-                    <td style="color:#EB1000; font-family:adobe-clean, Helvetica Neue, Helvetica, Verdana, Arial, sans-serif; font-size:12px; line-height:18px; padding-top:50px;"><img alt="Adobe" src="http://landing.adobe.com/dam/global/images/adobe-logo.420x110.png" width="108" height="auto" border="0" hspace="0" vspace="0" style="color:#EB1000; font-family:adobe-clean, Helvetica Neue, Helvetica, Verdana, Arial, sans-serif; font-size:12px; line-height:18px; display:block; vertical-align:top;" /></td>
-                  </tr>
+                  
                   <tr>
                   ${
                     name
-                      ? `<td style="color:#505050; font-family:adobe-clean, Helvetica Neue, Helvetica, Verdana, Arial, sans-serif; font-size:28px; line-height:30px; padding-top:65px;"><strong>Ime:</strong> ${name} </td>`
+                      ? `<td style="color:#505050; font-family:adobe-clean, Helvetica Neue, Helvetica, Verdana, Arial, sans-serif; font-size:18px; line-height:26px; padding-top:40px;"><strong>Ime:</strong> ${name} </td>`
                       : nameRequest
                       ? `<td style="color:#505050; font-family:adobe-clean, Helvetica Neue, Helvetica, Verdana, Arial, sans-serif; font-size:28px; line-height:30px; padding-top:65px;"><strong>Ime:</strong> ${nameRequest} </td>`
                       : ""

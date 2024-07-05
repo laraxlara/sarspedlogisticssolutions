@@ -27,44 +27,44 @@ function Contact({}: Props) {
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs pb-4 uppercase">
                 Sarsped logistics solutions d.o.o.
               </h2>
-              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
+              <h4 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                 ADRESA
-              </h2>
+              </h4>
               <p className="mt-1">Bulevar oslobođenja 78, 21000, Novi Sad</p>
-              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
+              <h4 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                 RADNO VREME
-              </h2>
+              </h4>
               <p className="mt-1">08 - 16</p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
+              <h4 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                 EMAIL
-              </h2>
+              </h4>
               <a
                 href="mailto: info@sarspedlogistics.com"
                 className="text-[#ED224F] leading-relaxed"
               >
                 info@sarspedlogistics.com
               </a>
-              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
+              <h4 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                 PIB/VAT:
-              </h2>
+              </h4>
               <p className="leading-relaxed">114257660</p>
-              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
+              <h4 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                 MB
-              </h2>
+              </h4>
               <p className="leading-relaxed">21995908</p>
-              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
+              <h4 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                 Tel:
-              </h2>
+              </h4>
               <p className="leading-relaxed">+381645805763</p>
             </div>
           </div>
         </div>
         <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-          <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
+          <h6 className="text-gray-900 text-lg mb-1 font-medium title-font">
             Kontaktirajte nas
-          </h2>
+          </h6>
           <p className="leading-relaxed mb-5 text-gray-600">
             Tu smo da pomognemo! Obratite nam se putem telefona ili e-pošte
             tokom našeg radnog vremena. Za podršku ili više informacija,

@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import QuoteButton from "@/components/buttons/QuoteButton";
 import { links } from "@/components/navbar/NavbarLinks";
 
 import logo from "../../public/images/logo2.png";
@@ -17,7 +16,7 @@ function Footer({}: Props) {
         </div>
 
         <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
-          The one and only spedition for you
+          We deliver solutions.
         </p>
 
         <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
@@ -36,8 +35,8 @@ function Footer({}: Props) {
 
         <ul className="mt-12 flex justify-center gap-6 md:gap-8">
           <li>
-            <Link
-              href="/"
+            <a
+              href="https://www.facebook.com/profile.php?id=61561455991941"
               rel="noreferrer"
               target="_blank"
               className="text-[#696868] transition hover:text-[#696868]/75"
@@ -55,11 +54,11 @@ function Footer({}: Props) {
                   clipRule="evenodd"
                 />
               </svg>
-            </Link>
+            </a>
           </li>
 
-          <li>
-            <Link
+          {/* <li>
+            <a
               href="/"
               rel="noreferrer"
               target="_blank"
@@ -78,12 +77,12 @@ function Footer({}: Props) {
                   clipRule="evenodd"
                 />
               </svg>
-            </Link>
-          </li>
+            </a>
+          </li> */}
 
           <li>
-            <Link
-              href="/"
+            <a
+              href="https://www.linkedin.com/company/sarsped-logistics-solutions-d-o-o/"
               rel="noreferrer"
               target="_blank"
               className="text-[#696868] transition hover:text-[#696868]/75"
@@ -108,7 +107,7 @@ function Footer({}: Props) {
                 <path d="M12 16l0 -5" />
                 <path d="M16 16v-3a2 2 0 0 0 -4 0" />
               </svg>
-            </Link>
+            </a>
           </li>
         </ul>
       </div>
