@@ -86,7 +86,10 @@ function Navbar({}: Props) {
               </li>
             ))}
             <li className="ml-2">
-              <button className="bg-[#ED224F] hover:bg-[#D71D46] text-gray-200 font-bold py-2 px-2 rounded inline-flex shadow-lg items-center">
+              <a
+                href="tel:+381645805763"
+                className="bg-[#ED224F] hover:bg-[#D71D46] text-gray-200 font-bold py-2 px-2 rounded inline-flex shadow-lg items-center"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="mr-2 icon icon-tabler icon-tabler-phone"
@@ -102,8 +105,8 @@ function Navbar({}: Props) {
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
                 </svg>
-                <span className="">Pozovite nas</span>
-              </button>
+                <span>Pozovite nas</span>
+              </a>
             </li>
             {/* <li className="mt-4 ml-2">
               <button>
