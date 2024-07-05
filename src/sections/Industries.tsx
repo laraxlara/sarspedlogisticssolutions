@@ -13,8 +13,8 @@ type Props = {};
 
 function Industries({}: Props) {
   return (
-    <div className="relative">
-      <div className="bg-white absolute z-10 opacity-75 left-0 right-0 m-auto w-1/2 p-8 top-1/2 transform -translate-y-1/2">
+    <div className="relative mb-8">
+      <div className="bg-white absolute z-10 opacity-75 left-0 right-0 m-auto w-2/3 md:w-1/2 p-8 top-1/2 transform -translate-y-1/2">
         <h5 className="mb-5 text-3xl font-bold text-[#454444] sm:text-[40px]/[48px]">
           Tipovi robe.
         </h5>
