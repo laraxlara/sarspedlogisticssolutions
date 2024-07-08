@@ -30,14 +30,10 @@ function Stats({}: Props) {
               <span className="text-[#ED224F] font-bold">
                 Sarsped logistics solutions d.o.o.
               </span>{" "}
-              prvenstveno uključuje puteve koji počinju ili završavaju na
-              Balkanu.
+              pruža pouzdanu i kvalitetnu uslugu drumskog teretnog transporta na
+              relacijama iz Skandinavije, Zapadne i Centralne Evrope do Balkana
+              i obrnuto.
             </h4>
-            <div className="leading-relaxed">
-              Sarsped logistics solutions d.o.o. pruža pouzdanu i kvalitetnu
-              uslugu drumskog teretnog transporta na relacijama iz Skandinavije,
-              Zapadne i Centralne Evrope do Balkana i obrnuto.
-            </div>
           </div>
         </div>
         <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">

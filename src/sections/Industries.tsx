@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import a4 from "../../public/images/a4.jpg";
+import a11 from "../../public/images/a11.jpg";
 import a1 from "../../public/images/a1.jpg";
 import a2 from "../../public/images/a2.jpg";
 import sajt2 from "../../public/images/sajt2.jpg";
@@ -13,7 +13,7 @@ type Props = {};
 
 function Industries({}: Props) {
   return (
-    <div className="relative mb-8">
+    <section id="industries" className="relative mb-8">
       <div className="bg-white absolute z-10 opacity-75 left-0 right-0 m-auto w-2/3 md:w-1/2 p-8 top-1/2 transform -translate-y-1/2">
         <h5 className="mb-5 text-3xl font-bold text-[#454444] sm:text-[40px]/[48px]">
           Tipovi robe.
@@ -44,7 +44,7 @@ function Industries({}: Props) {
 
             <div className="group relative flex h-48 items-end overflow-hidden bg-gray-100 shadow-lg md:col-span-2 md:h-80">
               <Image
-                src={a4}
+                src={a11}
                 loading="lazy"
                 alt="Photo by Magicle"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 brightness-50"
@@ -99,7 +99,7 @@ function Industries({}: Props) {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

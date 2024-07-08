@@ -7,23 +7,23 @@ export interface NavLink {
 export const links: NavLink[] = [
   {
     id: 1,
-    title: "Početna",
-    url: "/#hero",
-  },
-  {
-    id: 2,
     title: "Statistika",
     url: "/#stats",
   },
   {
-    id: 3,
+    id: 2,
     title: "Karakteristike",
     url: "/#features",
   },
   {
-    id: 4,
+    id: 3,
     title: "O nama",
     url: "/#about",
+  },
+  {
+    id: 4,
+    title: "Roba",
+    url: "/#industries",
   },
   {
     id: 5,
