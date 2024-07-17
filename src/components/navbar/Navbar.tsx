@@ -32,7 +32,7 @@ function Navbar({}: Props) {
           onClick={toggleNavbar}
           data-collapse-toggle="navbar-default"
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-100 rounded-lg md:hidden hover:text-[#696868] focus:outline-none"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-[#696868] rounded-lg md:hidden hover:text-[#696868] focus:outline-none"
           aria-controls="navbar-default"
           aria-expanded="false"
         >
