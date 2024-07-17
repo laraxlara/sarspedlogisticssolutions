@@ -42,7 +42,7 @@ function Contact({}: Props) {
               </h4>
               <a
                 href="mailto: info@sarspedlogistics.com"
-                className="text-[#ED224F] leading-relaxed"
+                className="text-[#9E0606] leading-relaxed"
               >
                 info@sarspedlogistics.com
               </a>

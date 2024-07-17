@@ -218,7 +218,7 @@ function RequestForm({}: Props) {
             <div className="flex items-center flex-col justify-between sm:col-span-2">
               <button
                 type="submit"
-                className="inline-block rounded-lg w-full bg-[#ED224F] px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-[#ED224F] transition duration-100 hover:bg-[#D71D46] focus-visible:ring active:bg-[#ED224F] md:text-base"
+                className="inline-block rounded-lg w-full bg-[#9E0606] px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-[#9E0606] transition duration-100 hover:bg-[#C31F1F] focus-visible:ring active:bg-[#9E0606] md:text-base"
               >
                 <FormattedMessage id="requestMessageButton" />
               </button>

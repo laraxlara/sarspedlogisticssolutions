@@ -145,7 +145,7 @@ function Navbar({}: Props) {
             <li className="ml-2">
               <a
                 href="tel:+381645805763"
-                className="bg-[#ED224F] hover:bg-[#D71D46] text-gray-200 font-bold py-2 px-2 rounded inline-flex shadow-lg items-center"
+                className="bg-[#9E0606] hover:bg-[#C31F1F] text-gray-200 font-bold py-2 px-2 rounded inline-flex shadow-lg items-center"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

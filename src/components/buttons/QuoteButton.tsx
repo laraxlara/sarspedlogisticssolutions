@@ -42,7 +42,7 @@ function QuoteButton({}: Props) {
     >
       <Link
         href="/request"
-        className="uppercase block w-full flex justify-center gap-4 items-center rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+        className="uppercase block w-full flex justify-center gap-4 items-center rounded bg-[#9E0606] px-12 py-3 text-sm font-medium text-white shadow hover:bg-[#C31F1F] focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
       >
         <FormattedMessage id="requestButton" />
         <svg

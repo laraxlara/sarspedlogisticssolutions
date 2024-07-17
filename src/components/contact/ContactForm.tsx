@@ -121,7 +121,7 @@ const ContactForm = (props: Props) => {
             </div>
             <button
               type="submit"
-              className="w-full text-white bg-[#ED224F] border-0 py-2 px-6 focus:outline-none hover:bg-[#D71D46] rounded text-md"
+              className="w-full text-white bg-[#9E0606] border-0 py-2 px-6 focus:outline-none hover:bg-[#C31F1F] rounded text-md"
             >
               <FormattedMessage id="contactButton" />
             </button>

@@ -19,7 +19,7 @@ function Features({}: Props) {
 
         <div className="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
           <div className="flex items-start gap-4">
-            <span className="shrink-0 rounded-lg bg-[#ED224F] p-4">
+            <span className="shrink-0 rounded-lg bg-[#9E0606] p-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="icon icon-tabler icon-tabler-target-arrow"
@@ -53,7 +53,7 @@ function Features({}: Props) {
           </div>
 
           <div className="flex items-start gap-4">
-            <span className="shrink-0 rounded-lg bg-[#ED224F] p-4">
+            <span className="shrink-0 rounded-lg bg-[#9E0606] p-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="icon icon-tabler icon-tabler-users"
@@ -86,7 +86,7 @@ function Features({}: Props) {
           </div>
 
           <div className="flex items-start gap-4">
-            <span className="shrink-0 rounded-lg bg-[#ED224F] p-4">
+            <span className="shrink-0 rounded-lg bg-[#9E0606] p-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="icon icon-tabler icon-tabler-truck"

@@ -23,7 +23,7 @@ function Stats() {
         <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
           <div className="w-full sm:p-4 px-4 mb-6">
             <h4 className="title-font font-medium text-2xl mb-2 text-gray-900">
-              <span className="text-[#ED224F] font-bold">
+              <span className="text-[#9E0606] font-bold">
                 Sarsped logistics solutions d.o.o.
               </span>{" "}
               <FormattedMessage id="firstText" />

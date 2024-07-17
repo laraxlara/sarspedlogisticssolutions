@@ -55,7 +55,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse<Response>) => {
         <td>
           <table class="full-width" align="center" width="900" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:600px;margin:2rem auto;">
             <tr>
-              <td bgcolor="#ffffff" style="border-top:4px solid #ED224F; background-color:#ffffff; padding-bottom:60px;">
+              <td bgcolor="#ffffff" style="border-top:4px solid #9E0606; background-color:#ffffff; padding-bottom:60px;">
 
                 <!-- pod1 -->
                 <table class="email-width" align="center" width="500" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:500px;">

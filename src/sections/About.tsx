@@ -39,14 +39,14 @@ const About = (props: Props) => {
           </div>
           <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div className="mt-10 lg:mt-0">
-              <span className="block text-lg text-[#ED224F] font-semibold">
+              <span className="block text-lg text-[#9E0606] font-semibold">
                 <FormattedMessage id="aboutUs" />
               </span>
               <h2 className="mb-5 text-3xl font-bold text-[#454444] sm:text-[40px]/[48px]">
                 <FormattedMessage id="logisticsAndTransport" />
               </h2>
               <p className="mb-5 text-base text-body-color dark:text-dark-6">
-                <span className="text-[#ED224F] font-bold">
+                <span className="text-[#9E0606] font-bold">
                   Sarsped logistics solutions d.o.o.
                 </span>{" "}
                 <FormattedMessage id="aboutDescription1" />
