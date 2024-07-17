@@ -8,24 +8,17 @@ import sajt2 from "../../public/images/sajt2.jpg";
 import hero1 from "../../public/images/hero1.jpg";
 
 import b1 from "../../public/images/b1.jpg";
+import { FormattedMessage } from "react-intl";
 
-type Props = {};
-
-function Industries({}: Props) {
+function Industries() {
   return (
     <section id="industries" className="relative mb-8">
       <div className="bg-white absolute z-10 opacity-75 left-0 right-0 m-auto w-2/3 md:w-1/2 p-8 top-1/2 transform -translate-y-1/2">
         <h5 className="mb-5 text-3xl font-bold text-[#454444] sm:text-[40px]/[48px]">
-          Tipovi robe.
+          <FormattedMessage id="typesOfGoods" />
         </h5>
         <p className=" text-sm md:text-lg">
-          Mi razumemo da svaki naš klijent ima jedinstvene potrebe, te stoga
-          nudimo fleksibilna logistička rešenja krojena po tim specifičnim
-          zahtevima. Bez obzira na tip robe ili destinacije, mi ćemo naći
-          rešenje za vas. Mi pružamo organizaciju transporta različitih roba,
-          uključujući komercijalnu robu, opasne ADR materijale, robu koja
-          podleže temperaturno kontrolisanim uslovima, robu podložnu pregledima,
-          mašine itd.
+          <FormattedMessage id="typesOfGoodsText" />
         </p>
       </div>
       <div className="bg-white">

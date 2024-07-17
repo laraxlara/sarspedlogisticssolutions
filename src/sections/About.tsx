@@ -1,6 +1,6 @@
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
+import { FormattedMessage } from "react-intl";
 import ImageSvg from "@/components/svg/ImageSvg";
 
 import a1 from "../../public/images/a4.jpg";
@@ -40,36 +40,20 @@ const About = (props: Props) => {
           <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div className="mt-10 lg:mt-0">
               <span className="block text-lg text-[#ED224F] font-semibold">
-                O nama
+                <FormattedMessage id="aboutUs" />
               </span>
               <h2 className="mb-5 text-3xl font-bold text-[#454444] sm:text-[40px]/[48px]">
-                Logistika i transport robe.
+                <FormattedMessage id="logisticsAndTransport" />
               </h2>
               <p className="mb-5 text-base text-body-color dark:text-dark-6">
                 <span className="text-[#ED224F] font-bold">
                   Sarsped logistics solutions d.o.o.
                 </span>{" "}
-                je pružalac logističkih usluga specijalizovan za organizaciju,
-                optimizaciju i izvršenje međunarodnog i domaćeg drumskog
-                transporta tereta u Evropi. Naša vizija je da postanemo sinonim
-                za odličnu i pouzdanu uslugu drumskog transporta širom Evrope.
+                <FormattedMessage id="aboutDescription1" />
               </p>
               <p className="mb-8 text-base text-body-color dark:text-dark-6">
-                Težimo da budemo prepoznati kao lideri u logistici, pružajući
-                vrhunsku uslugu 24/7, koja prevazilazi očekivanja naših
-                klijenata i omogućava im da se fokusiraju na njihovo osnovno
-                poslovanje. Takođe, posvećeni smo smanjenju našeg uticaja na
-                okolinu usvajanjem praksi zelene logistike. Težimo da
-                kontinuirano širimo i ojačavamo našu mrežu klijenata i
-                podizvođača, negujući dugotrajna partnerstva koja pokreću
-                zajednički rast i uspeh.
+                <FormattedMessage id="aboutDescription2" />
               </p>
-              <Link
-                href="javascript:void(0)"
-                className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
-              >
-                Get Started
-              </Link>
             </div>
           </div>
         </div>

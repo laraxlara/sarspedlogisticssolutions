@@ -7,6 +7,7 @@ import FormLoader from "../loader/FormLoader";
 import Success from "./Success";
 import Error from "./Error";
 import axios from "axios";
+import { FormattedMessage } from "react-intl";
 
 const schema = yup
   .object({
@@ -93,7 +94,7 @@ function RequestForm({}: Props) {
                 htmlFor="nameRequest"
                 className="mb-2 inline-block text-sm text-gray-800 sm:text-base"
               >
-                Ime*
+                <FormattedMessage id="requestName" />
               </label>
               <input
                 id="nameRequest"
@@ -109,7 +110,7 @@ function RequestForm({}: Props) {
                 htmlFor="surname"
                 className="mb-2 inline-block text-sm text-gray-800 sm:text-base"
               >
-                Prezime*
+                <FormattedMessage id="requestSurname" />
               </label>
               <input
                 id="surname"
@@ -124,7 +125,7 @@ function RequestForm({}: Props) {
                 htmlFor="phone"
                 className="mb-2 inline-block text-sm text-gray-800 sm:text-base"
               >
-                Telefon
+                <FormattedMessage id="requestPhone" />
               </label>
               <input
                 id="phone"
@@ -140,7 +141,7 @@ function RequestForm({}: Props) {
                 htmlFor="company"
                 className="mb-2 inline-block text-sm text-gray-800 sm:text-base"
               >
-                Kompanija
+                <FormattedMessage id="requestCompany" />
               </label>
               <input
                 id="company"
@@ -155,7 +156,7 @@ function RequestForm({}: Props) {
                 htmlFor="companyAdress"
                 className="mb-2 inline-block text-sm text-gray-800 sm:text-base"
               >
-                Adresa Kompanije
+                <FormattedMessage id="requestCompanyAdress" />
               </label>
               <input
                 id="companyAdress"
@@ -171,7 +172,7 @@ function RequestForm({}: Props) {
                 htmlFor="emailRequest"
                 className="mb-2 inline-block text-sm text-gray-800 sm:text-base"
               >
-                Email*
+                <FormattedMessage id="requestEmail" />
               </label>
               <input
                 id="emailRequest"
@@ -187,7 +188,7 @@ function RequestForm({}: Props) {
                 htmlFor="subject"
                 className="mb-2 inline-block text-sm text-gray-800 sm:text-base"
               >
-                Naslov*
+                <FormattedMessage id="requestSubject" />
               </label>
               <input
                 id="subject"
@@ -203,7 +204,7 @@ function RequestForm({}: Props) {
                 htmlFor="request"
                 className="mb-2 inline-block text-sm text-gray-800 sm:text-base"
               >
-                Upit*
+                <FormattedMessage id="requestMessage" />
               </label>
               <textarea
                 id="request"
@@ -219,10 +220,10 @@ function RequestForm({}: Props) {
                 type="submit"
                 className="inline-block rounded-lg w-full bg-[#ED224F] px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-[#ED224F] transition duration-100 hover:bg-[#D71D46] focus-visible:ring active:bg-[#ED224F] md:text-base"
               >
-                Pošaljite upit
+                <FormattedMessage id="requestMessageButton" />
               </button>
               <p className="text-xs text-gray-500 mt-3">
-                *sva polja je neophodno popuniti
+                <FormattedMessage id="belowRequestButtonText" />
               </p>
             </div>
           </form>

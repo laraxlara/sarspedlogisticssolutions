@@ -1,4 +1,5 @@
 import React from "react";
+import { FormattedMessage } from "react-intl";
 
 type Props = {};
 
@@ -19,7 +20,9 @@ const Error = (props: Props) => {
         </svg>
 
         <div className="text-red-700">
-          <div className="font-bold text-xl">Greška! Nešto nije u redu!</div>
+          <div className="font-bold text-xl">
+            <FormattedMessage id="error" />
+          </div>
         </div>
       </div>
     </div>

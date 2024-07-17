@@ -7,6 +7,7 @@ import FormLoader from "../loader/FormLoader";
 import Success from "./Success";
 import Error from "./Error";
 import axios from "axios";
+import { FormattedMessage } from "react-intl";
 
 const schema = yup
   .object({
@@ -76,7 +77,7 @@ const ContactForm = (props: Props) => {
           <form onSubmit={onSubmit}>
             <div className="relative mb-4">
               <label htmlFor="name" className="leading-7 text-sm text-gray-600">
-                Name
+                <FormattedMessage id="contactName" />
               </label>
               <input
                 type="text"
@@ -92,7 +93,7 @@ const ContactForm = (props: Props) => {
                 htmlFor="email"
                 className="leading-7 text-sm text-gray-600"
               >
-                Email
+                <FormattedMessage id="contactEmail" />
               </label>
               <input
                 type="email"
@@ -108,7 +109,7 @@ const ContactForm = (props: Props) => {
                 htmlFor="message"
                 className="leading-7 text-sm text-gray-600"
               >
-                Message
+                <FormattedMessage id="contactMessage" />
               </label>
               <textarea
                 id="message"
@@ -122,10 +123,10 @@ const ContactForm = (props: Props) => {
               type="submit"
               className="w-full text-white bg-[#ED224F] border-0 py-2 px-6 focus:outline-none hover:bg-[#D71D46] rounded text-md"
             >
-              Pošaljite poruku
+              <FormattedMessage id="contactButton" />
             </button>
             <p className="text-xs text-gray-500 mt-3">
-              *sva polja je neophodno popuniti
+              <FormattedMessage id="belowContactButtonText" />
             </p>
           </form>
         </>

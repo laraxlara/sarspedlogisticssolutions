@@ -1,4 +1,5 @@
 import React from "react";
+import { FormattedMessage } from "react-intl";
 
 type Props = {};
 
@@ -8,14 +9,11 @@ function Features({}: Props) {
       <div className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 max-w-screen-xl mx-auto">
         <div className="max-w-xl">
           <h5 className="text-3xl text-black font-bold sm:text-4xl">
-            Ono što nas čini posebnim
+            <FormattedMessage id="featuresTitle" />
           </h5>
 
           <p className="mt-4 text-gray-800">
-            Verujemo u negovanje ne samo poslovnih odnosa, već i istinskog
-            partnerstva sa našim klijentima i podizvođačima. Trudimo se da
-            budemo više od samo pružaoca usluga – cilj nam je da budemo pouzdan
-            saveznik, nudeći stalnu podršku i smernice na svakom koraku.
+            <FormattedMessage id="featuresText" />
           </p>
         </div>
 
@@ -44,14 +42,12 @@ function Features({}: Props) {
             </span>
 
             <div>
-              <h2 className="text-lg font-bold text-black">Naš cilj</h2>
+              <h2 className="text-lg font-bold text-black">
+                <FormattedMessage id="feature1Title" />
+              </h2>
 
               <p className="mt-1 text-sm text-gray-800">
-                Naš cilj je da premašimo standardni nivo usluge u logistici.
-                Promovišemo inovativna rešenja za rešavanje izazova logističke
-                industrije koji se stalno menjaju. Posvećeni efikasnosti,
-                tačnosti, sigurnosti i kontinuiranom radu na poboljšanju naših
-                procesa težimo najvišem nivou zadovoljstva klijenata.
+                <FormattedMessage id="feature1" />
               </p>
             </div>
           </div>
@@ -79,11 +75,12 @@ function Features({}: Props) {
             </span>
 
             <div>
-              <h2 className="text-lg font-bold text-black">Tim stručnjaka</h2>
+              <h2 className="text-lg font-bold text-black">
+                <FormattedMessage id="feature2Title" />
+              </h2>
 
               <p className="mt-1 text-sm text-gray-800">
-                Tim iskusnih i obrazovanih logističkih stručnjaka pruža najbolja
-                logistička rešenja uz održavanje konkurentnih cena naših usluga.
+                <FormattedMessage id="feature2" />
               </p>
             </div>
           </div>
@@ -110,13 +107,12 @@ function Features({}: Props) {
             </span>
 
             <div>
-              <h2 className="text-lg font-bold text-black">Moderna flota</h2>
+              <h2 className="text-lg font-bold text-black">
+                <FormattedMessage id="feature3Title" />
+              </h2>
 
               <p className="mt-1 text-sm text-gray-800">
-                Imamo modernu flotu pouzdanih podizvođača koji su pažljivo
-                odabrani. Ovo nam omogućava da našim klijentima ponudimo
-                konzistentan i stabilan broj kamiona za pune (FTL) i zbirne
-                (LTL) pošiljke.
+                <FormattedMessage id="feature3" />
               </p>
             </div>
           </div>

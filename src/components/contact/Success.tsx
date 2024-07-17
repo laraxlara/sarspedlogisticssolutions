@@ -1,4 +1,5 @@
 import React from "react";
+import { FormattedMessage } from "react-intl";
 
 const Success = () => {
   return (
@@ -17,7 +18,9 @@ const Success = () => {
         </svg>
 
         <div className="text-green-700">
-          <div className="font-bold text-xl">Vaša poruka je poslata!</div>
+          <div className="font-bold text-xl">
+            <FormattedMessage id="success" />
+          </div>
         </div>
       </div>
     </div>

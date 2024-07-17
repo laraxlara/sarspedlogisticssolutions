@@ -1,16 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import { FormattedMessage } from "react-intl";
 
 import map from "../../public/images/map.png";
 
-type Props = {};
-
-function Stats({}: Props) {
+function Stats() {
   return (
-    <section
-      id="stats"
-      className="relative text-gray-600 body-font max-w-screen-xl mx-auto"
-    >
+    <section className="relative text-gray-600 body-font max-w-screen-xl mx-auto">
       <div className="absolute top-0 opacity-[0.5]">
         <img
           src="https://i.ibb.co/KjrPCyW/map.png"
@@ -30,9 +26,7 @@ function Stats({}: Props) {
               <span className="text-[#ED224F] font-bold">
                 Sarsped logistics solutions d.o.o.
               </span>{" "}
-              pruža pouzdanu i kvalitetnu uslugu drumskog teretnog transporta na
-              relacijama iz Skandinavije, Zapadne i Centralne Evrope do Balkana
-              i obrnuto.
+              <FormattedMessage id="firstText" />
             </h4>
           </div>
         </div>

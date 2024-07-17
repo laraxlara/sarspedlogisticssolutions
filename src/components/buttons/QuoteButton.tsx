@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { FormattedMessage } from "react-intl";
 
 type Props = {};
 
@@ -43,7 +44,7 @@ function QuoteButton({}: Props) {
         href="/request"
         className="uppercase block w-full flex justify-center gap-4 items-center rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
       >
-        Zahtev za upit
+        <FormattedMessage id="requestButton" />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="icon icon-tabler icon-tabler-message-question"

@@ -5,15 +5,20 @@ import { links } from "./NavbarLinks";
 
 import logo from "../../../public/images/logo2.png";
 import uk from "../../../public/images/uk.svg";
+import serbia from "../../../public/images/serbia.svg";
+import { useRouter } from "next/router";
+import { FormattedMessage } from "react-intl";
 
 type Props = {};
 
 function Navbar({}: Props) {
+  const { locales } = useRouter();
   const [isActive, setIsActive] = useState(false);
 
   const toggleNavbar = () => {
     setIsActive(!isActive);
   };
+
   return (
     <nav className="bg-white border-gray-200">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -27,7 +32,7 @@ function Navbar({}: Props) {
           onClick={toggleNavbar}
           data-collapse-toggle="navbar-default"
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:text-[#696868] focus:outline-none"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-100 rounded-lg md:hidden hover:text-[#696868] focus:outline-none"
           aria-controls="navbar-default"
           aria-expanded="false"
         >
@@ -85,6 +90,58 @@ function Navbar({}: Props) {
                 </Link>
               </li>
             ))}
+
+            <div className="flex justify-center items-center gap-2">
+              {[...locales!].sort().map((locale) =>
+                locale === "en" ? (
+                  <>
+                    <Link
+                      key={locale}
+                      href="/"
+                      className="bg-transparent overflow-y-hidden"
+                      locale={locale}
+                    >
+                      <Image src={uk} width={27} alt="" />
+                    </Link>
+                  </>
+                ) : (
+                  <>
+                    <Link
+                      key={locale}
+                      href="/"
+                      className="bg-transparent overflow-y-hidden"
+                      locale={locale}
+                    >
+                      <Image src={serbia} width={27} alt="" />
+                    </Link>
+                  </>
+                )
+              )}
+            </div>
+
+            {/* <select
+              id="language-select"
+              onChange={handleLanguageChange}
+              className="flex-shrink-0 z-10 inline-flex items-center px-2 text-sm font-medium text-center text-gray-600 bg-gray-100 border border-gray-200 rounded-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100"
+              defaultValue="sr"
+            >
+              <option value="sr">Srpski</option>
+              <option value="en">English</option>
+              {/* <svg
+                className="w-2.5 h-2.5 ms-2.5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 4 4 4-4"
+                />
+              </svg> */}
             <li className="ml-2">
               <a
                 href="tel:+381645805763"
@@ -105,14 +162,11 @@ function Navbar({}: Props) {
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
                 </svg>
-                <span>Pozovite nas</span>
+                <span>
+                  <FormattedMessage id="callButton" />
+                </span>
               </a>
             </li>
-            {/* <li className="mt-4 ml-2">
-              <button>
-                <Image src={uk} alt="United Kingdom Flag" width={27} />
-              </button>
-            </li> */}
           </ul>
         </div>
       </div>
