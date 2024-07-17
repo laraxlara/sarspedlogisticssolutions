@@ -91,7 +91,7 @@ function Navbar({}: Props) {
               </li>
             ))}
 
-            <div className="flex justify-center items-center gap-2">
+            <div className="flex justify-center items-center gap-6 md:gap-2 my-6 mx-4 flex-col md:flex-row">
               {[...locales!].sort().map((locale) =>
                 locale === "en" ? (
                   <>
