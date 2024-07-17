@@ -13,19 +13,19 @@ export default function Home() {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Sarsped Logistics doo</title>
+        <title>Sarsped Logistics Solutions doo</title>
         <meta
           name="description"
-          content="Sarsped Logistics doo pruža pouzdanu i kvalitetnu uslugu drumskog teretnog transporta na relacijama iz Skandinavije, Zapadne i Centralne Evrope do Balkana i obrnuto."
+          content="Sarsped Logistics Solutions doo pruža pouzdanu i kvalitetnu uslugu drumskog teretnog transporta na relacijama iz Skandinavije, Zapadne i Centralne Evrope do Balkana i obrnuto."
           key="desc"
         />
         <link rel="icon" href="/images/favicon.png" sizes="any" />
         <meta name="language" content="en" />
 
-        <meta property="og:title" content="Sarsped Logistics doo" />
+        <meta property="og:title" content="Sarsped Logistics Solutions doo" />
         <meta
           property="og:description"
-          content="Sarsped Logistics doo pruža pouzdanu i kvalitetnu uslugu drumskog teretnog transporta na relacijama iz Skandinavije, Zapadne i Centralne Evrope do Balkana i obrnuto."
+          content="Sarsped Logistics Solutions doo pruža pouzdanu i kvalitetnu uslugu drumskog teretnog transporta na relacijama iz Skandinavije, Zapadne i Centralne Evrope do Balkana i obrnuto."
         />
         <meta
           name="keywords"
@@ -36,10 +36,10 @@ export default function Home() {
         <meta property="og:type" content="website" />
 
         <meta name="twitter:card" content="/images/og.png" />
-        <meta name="twitter:title" content="Sarsped Logistics doo" />
+        <meta name="twitter:title" content="Sarsped Logistics Solutions doo" />
         <meta
           name="twitter:description"
-          content="Sarsped Logistics doo pruža pouzdanu i kvalitetnu uslugu drumskog teretnog transporta na relacijama iz Skandinavije, Zapadne i Centralne Evrope do Balkana i obrnuto."
+          content="Sarsped Logistics Solutions doo pruža pouzdanu i kvalitetnu uslugu drumskog teretnog transporta na relacijama iz Skandinavije, Zapadne i Centralne Evrope do Balkana i obrnuto."
         />
         <meta name="twitter:image" content="/images/og.png" />
         <link rel="canonical" href="https://sarspedlogistics.com/" />
