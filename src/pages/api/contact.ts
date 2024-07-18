@@ -1,4 +1,3 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from "next";
 import { transporter } from "../../config/nodemailer";
 
@@ -43,10 +42,12 @@ const handler = async (req: NextApiRequest, res: NextApiResponse<Response>) => {
 
   try {
     await transporter.sendMail({
-      to: "laraxlara97@gmail.com",
+      to: "info@sarspedlogistics.com",
       from: `${email}`,
       replyTo: email,
-      subject: `${subject ? `${subject}` : `Onesped website`}`,
+      subject: `${
+        subject ? `${subject}` : `Sarsped Logistics Solutions doo Website`
+      }`,
       text: message,
       html: `
       <body style="background-color:#d18c9b; margin:0; padding:0;-webkit-font-smoothing:antialiased;width:100% !important;-webkit-text-size-adjust:none;" topmargin="0">
