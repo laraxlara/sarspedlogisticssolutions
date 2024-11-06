@@ -60,14 +60,14 @@ function RequestForm({}: Props) {
     try {
       const response = await axios.post("api/contact/", data);
 
-      console.log(response.config.data);
+      // console.log(response.config.data);
       if (response) {
         setSent(true);
         setLoading(false);
       }
     } catch (error) {
       setError(true);
-      console.log(error);
+      // console.log(error);
     }
     setError(false);
   });
